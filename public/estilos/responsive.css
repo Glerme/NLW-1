@@ -1,0 +1,72 @@
+@media(max-width: 900px){
+    #page-home{
+        background-position: 70vw;
+        background-image: url('/assets/arvoreMobile.svg') ;
+        align-items: center;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: flex;
+        bottom: 48px;
+        transform: translateX(15%);
+        
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+
+
+
+/* PAGE-CREATE POINT */
+
+    #page-create-point .field-group{
+        display: grid;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    form .field-group .field + .field{
+        margin: 0;
+    }
+ 
+    .itens-grid{
+        gap: 5px;   /*a margin do grid*/
+    
+    }
+
+
+/* MODAL */
+
+    #modal .content{
+        color:white;
+        width: 90vw;
+    }
+
+
+
+
+
+}
+
+@media(min-width: 1700px){
+    #page-home{
+        background-position-x: 45vw;
+    }
+}
+
+@media(max-height: 760px){
+    #page-home{
+        background-position-y: 200px;
+    }
+  
+}
