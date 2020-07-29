@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado da pesquisa</title>
-    <link href="/estilos/main.css" rel="stylesheet">
-    <link href="/estilos/search.css" rel="stylesheet">
-    <link href="/estilos/responsive.css" rel="stylesheet">
+    <link href="./public/estilos/main.css" rel="stylesheet">
+    <link href="./public/estilos/search.css" rel="stylesheet">
+    <link href="/public/estilos/responsive.css" rel="stylesheet">
 
 
     <!-- Fontes -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/assets/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./public/assets/favicon.svg" type="image/x-icon">
 </head>
 
 <body>
 
     <div id="page-search-results">
-        {% include "partials/page-header.html" %}
+        {% include "./partials/page-header.html" %}
 
         <main>
             {% if total >  0 %}
